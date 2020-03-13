@@ -1,0 +1,30 @@
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h4,label{
+    color: darkslategray;
+}
+.container{
+    border: 2px solid black;
+    background: darkolivegreen;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+.col-sm-6{
+    background-color: white;
+}
+label{
+    font-family: monospace;
+    font-size: large;
+}
+.form-control{
+    background: darkkhaki;
+}
+h1{
+    color: white;
+}

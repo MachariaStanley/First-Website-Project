@@ -1,0 +1,100 @@
+
+.bg-img{
+    background-image: url("images/pic2.jpg");
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.logo{
+    float: end;
+}
+.fixed-top{
+ background: #0b2e13;
+}
+.topnav a{
+    float:right;
+    color:burlywood;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover{
+    background-color:white;
+    color: black;
+}
+.topnav a .active{
+    background-color: darkslategray;
+    color: white;
+}
+.topnav input[type=text]{
+    float: outside;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 600px){
+    .topnav a, .topnav,
+    input[type=text]{
+        float: none;
+        display: block;
+        text-align:left ;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .topnav input[type=text]{
+        border: 1px solid #ccc;,
+    }
+
+}
+body{
+    background: whitesmoke;
+}
+footer{
+    display: block;
+    color: #533f03;
+    background-color: black;
+    width: 200%;
+}
+.footer{
+    background: darkslategray;
+    color:white;
+    padding: 20px;
+    width: 100%;
+    height: 950px}
+h2{
+    font-size: 25px;
+}
+.judy{
+    background: darkgrey;
+}
+.par{
+    color: white;
+    font-size: 30px;
+}
+h1{
+    color: #0b2e13;
+}
+h2{
+    color: lightgoldenrodyellow;
+}
+h3{
+    color: lightgoldenrodyellow;
+}
+li{
+    color: burlywood;
+}
+footer{
+    display: block;
+    background: #0b2e13;
+
+}
+.search{
+    float: bottom;
+}
